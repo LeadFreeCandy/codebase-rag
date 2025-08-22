@@ -1,0 +1,92 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Cache
+.cache/
+*.cache
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Test artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Model cache (excluding pre-built database)
+.cache/
+**/models/
+**/.cache/
+!apm_bundle_full_db/
+
+# Test databases and temporary files
+test_*_db/
+**/test_*.py
+**/debug_*.py
+**/profile_*.py
+**/analyze_*.py
+**/quick_*.py
+**/temp_*.py
+embedding_model_benchmark.py
+code_embedding_test.py
+
+# Ignore all test and debug scripts but keep core functionality
+test_*.py
+debug_*.py
+profile_*.py
+analyze_*.py
+quick_*.py
+**/test_*.py
+**/debug_*.py*.sqlite3-journal
